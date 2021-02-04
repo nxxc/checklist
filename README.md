@@ -3,6 +3,7 @@
 > 체크리스트 web front end 만들기 by React / Typescript / Firebase
 
 <br>
+
 ## 기간
 - 총 기간 : 2021-01-28 ~ 2021-02-28
     - 사전 조사 : 2021-01-28 ~ 2021-02-03
@@ -10,6 +11,7 @@
     - 검수 : 2021-02-27 ~ 2021-02-28
 
 <br>
+
 ## Trello
 - 링크 : https://trello.com/b/q2W0kFKs
   ![](trello.png)
