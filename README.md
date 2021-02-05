@@ -1,4 +1,4 @@
-# checklist
+# todo list
 
 > 체크리스트 web front end 만들기 by React / Typescript / Firebase
 
