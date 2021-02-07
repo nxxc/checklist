@@ -1,4 +1,4 @@
-# todo list
+# Checklist
 
 > 체크리스트 web front end 만들기 by React / Typescript / Firebase
 
@@ -9,6 +9,27 @@
     - 사전 조사 : 2021-01-28 ~ 2021-02-03
     - 개발 : 2021-02-03 ~ 2021-02-26
     - 검수 : 2021-02-27 ~ 2021-02-28
+
+
+<br>
+
+## 개발 환경 세팅
+<!-- 필요할때마다 지속적으로 추가 -->
+- 모듈 설치
+    - node.js 설치
+    - `ROOT_DIR$ npm i`
+- commit 메세지 템플릿 적용시키기 ([commit 메세지 규칙](./docs/commit_rules.md))
+    - `ROOT_DIR$ git config commit.template docs/.gitmessage`
+<!-- - firebase
+- docker -->
+
+
+<!-- <br>
+
+## 배포 프로세스 -->
+
+
+
 <br>
 
 ## Trello
@@ -19,13 +40,15 @@
     - backlog
     - 해야할 일을 마구잡이로 넣는다. (일단 닥치는대로 넣고 안하는 것은 `Trash`로)
     - 넣을때 member를 지정하지 않고 일단 넣는다.
+    - 작업에 대한 내용을 `description`에 상세하게 기입한다.
     - 해당 이슈를 처리할 사람이 `To do`에서 다른 곳으로 나갈때 자동으로 본인이 할당된다.
-    - 카드를 생성할 때에 부가적인 설명은 `description`이 아닌 `comment`에 남긴다. `description`에는 이후에 깃헙 PR 링크로 대체되기 때문이다.
 - **Doing**
     - 작업을 시작하면 `Doing`으로 옮긴다.
 - **In Review**
     - PR을 작성한 후에, `Doing`의 카드를 `In Review`로 옮긴다.
+    - **`In Review`로 옮기기 전 github PR을 attach한다.**
     - `In Review`로 옮기면, slack channel에 리뷰 요청 메세지가 링크와 함께 남는다.
+    - 리뷰를 남기거나, 어프로브하거나, 리뷰를 재요청할 경우 버튼을 눌러 서로가 알게한다.
     - 리뷰가 필요 없는 작업은 거쳐가지 않아도 된다.
 - **Done**
     - 작업이 끝난 카드를 `Done`으로 옮긴다.
