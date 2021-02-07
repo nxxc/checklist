@@ -9,12 +9,11 @@
     - 사전 조사 : 2021-01-28 ~ 2021-02-03
     - 개발 : 2021-02-03 ~ 2021-02-26
     - 검수 : 2021-02-27 ~ 2021-02-28
-
 <br>
 
 ## Trello
 - 링크 : https://trello.com/b/q2W0kFKs
-  ![](trello.png)
+  ![](docs/images/trello.png)
 ### 사용법
 - **To do**
     - backlog
