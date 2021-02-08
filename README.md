@@ -20,15 +20,7 @@
     - `ROOT_DIR$ npm i`
 - commit 메세지 템플릿 적용시키기 ([commit 메세지 규칙](./docs/commit_rules.md))
     - `ROOT_DIR$ git config commit.template docs/.gitmessage`
-<!-- - firebase
-- docker -->
-
-
-<!-- <br>
-
-## 배포 프로세스 -->
-
-## 프로젝트 실행 방법
+- 프로젝트 실행 방법
 ```
 git clone https://github.com/nxxc/checklist.git
 cd checklist
@@ -43,7 +35,13 @@ npm run dev
 yarn install
 yarn dev
 ```
+<!-- - firebase
+- docker -->
 
+
+<!-- <br>
+
+## 배포 프로세스 -->
 
 <br>
 
