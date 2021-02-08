@@ -20,6 +20,21 @@
     - `ROOT_DIR$ npm i`
 - commit 메세지 템플릿 적용시키기 ([commit 메세지 규칙](./docs/commit_rules.md))
     - `ROOT_DIR$ git config commit.template docs/.gitmessage`
+- 프로젝트 실행 방법
+```
+git clone https://github.com/nxxc/checklist.git
+cd checklist
+```
++ npm 이용 시 
+```
+npm install
+npm run dev
+```
++ yarn 이용시 
+```
+yarn install
+yarn dev
+```
 <!-- - firebase
 - docker -->
 
@@ -27,8 +42,6 @@
 <!-- <br>
 
 ## 배포 프로세스 -->
-
-
 
 <br>
 
@@ -56,4 +69,3 @@
     - 테스트용이거나 삭제가 필요한 카드는 `archive`하지 않고 `Trash`로 옮긴다.
     - 지난 이슈들을 기록하기 위해서이다. (지금은 필요없더라도 나중에 참고할일이 있을 수 있음. 세상만사 어떻게될지 아무것도 모름.)
     - 나중에 필요할때 한꺼번에 `archive`할 수 있다.
-
