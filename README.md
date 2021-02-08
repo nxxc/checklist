@@ -28,6 +28,21 @@
 
 ## 배포 프로세스 -->
 
+## 프로젝트 실행 방법
+```
+git clone https://github.com/nxxc/checklist.git
+cd checklist
+```
++ npm 이용 시 
+```
+npm install
+npm run dev
+```
++ yarn 이용시 
+```
+yarn install
+yarn dev
+```
 
 
 <br>
